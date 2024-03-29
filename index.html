@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <main>
+            <h5 class="h5">The Current Epoch Unix Timestamp</h5>
+            <label class="label" for="">Enter a Timestamp</label>
+            <input id="input1" placeholder="1711677595" type="text">
+            <p id="textp1">Supports Unix timestamps in seconds, milliseconds, microseconds and nanoseconds.</p>
+            <button class="btn1">Convert<i class="fa-solid fa-arrow-right-long"></i></button>
+        </main>
+        <section>
+            <h2 id="h2">1711677899</h2>
+            <h6>SECONDS SINCE JAN 01 1970. (UTC)</h6>
+            <p id="clock">7:07:15 AM</p>
+        </section>
+    </div>
+    <span class="span">
+        <div class="sec-1">
+            <p class="sec">Format</p>
+            <p class="sections">Seconds</p>
+        </div>
+        <div class="sec-2">
+            <p class="sec">GMT</p>
+            <p id="time2" class="sections time2">Seconds</p>
+        </div>
+        <div class="sec-3">
+            <p class="sec">Your Time Zone</p>
+            <p id="time3" class="sections">Seconds</p>
+        </div>
+        <div class="sec-4">
+            <p class="sec">Relative</p>
+            <p id="time4" class="sections">19 years ago</p>
+        </div>
+    </span>
+
+    <form action="">
+        <h3>Enter a Date & Time</h3>
+        <div class="times">
+            <span>
+                <label for="">Year</label>
+                <input value="1970" type="number" name="" id="">
+            </span>
+            <span>
+                <label for="">Month</label>
+                <input value="01" type="number" name="" id="">
+            </span>
+            <span>
+                <label for="">Day</label>
+                <input value="01" type="number">
+            </span>
+            <span>
+                <label for="">Hour(24hour)</label>
+                <input value="00" type="number">
+            </span>
+            <span>
+                <label for="">Minutes</label>
+                <input value="00" type="number">
+            </span>
+            <span>
+                <label for="">Seconds</label>
+                <input value="00" type="number">
+            </span>
+        </div>
+        <button class="btn2">Convert<i class="fa-solid fa-arrow-right-long"></i></button>
+    </form>
+    <div class="footer">
+            <div class="sec-1">
+                <p class="sec">Unix Timestamp</p>
+                <p class="sections">1711684908</p>
+            </div>
+            <div class="sec-2">
+                <p class="sec">GMT</p>
+                <p class="sections p2">Fri Mar 29 2024 04:01:48 GMT+0000</p>
+            </div>
+            <div class="sec-3">
+                <p class="sec">Your Time Zone</p>
+                <p class="sections p3">Fri Mar 29 2024 09:01:48 GMT+0500 (Uzbekistan Standard Time)</p>
+            </div>
+            <div class="sec-4">
+                <p class="sec">Relative</p>
+                <p class="sections p4">19 years ago</p>
+            </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
