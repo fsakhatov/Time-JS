@@ -19,7 +19,7 @@
         <section>
             <h2 id="h2">1711677899</h2>
             <h6>SECONDS SINCE JAN 01 1970. (UTC)</h6>
-            <p id="clock">7:07:15 AM</p>
+            <p id="clock">00:00:00</p>
         </section>
     </div>
     <span class="span">
@@ -29,15 +29,15 @@
         </div>
         <div class="sec-2">
             <p class="sec">GMT</p>
-            <p id="time2" class="sections time2">Seconds</p>
+            <p id="time2" class="sections time2"></p>
         </div>
         <div class="sec-3">
             <p class="sec">Your Time Zone</p>
-            <p id="time3" class="sections">Seconds</p>
+            <p id="time3" class="sections"></p>
         </div>
         <div class="sec-4">
             <p class="sec">Relative</p>
-            <p id="time4" class="sections">19 years ago</p>
+            <p id="time4" class="sections">Updated now</p>
         </div>
     </span>
 
@@ -46,27 +46,27 @@
         <div class="times">
             <span>
                 <label for="">Year</label>
-                <input value="1970" type="number" name="" id="">
+                <input value="1970" type="number" name="" id="getyear">
             </span>
             <span>
                 <label for="">Month</label>
-                <input value="01" type="number" name="" id="">
+                <input value="01" type="number" name="" id="getmonth">
             </span>
             <span>
                 <label for="">Day</label>
-                <input value="01" type="number">
+                <input value="01" type="number" id="getday">
             </span>
             <span>
                 <label for="">Hour(24hour)</label>
-                <input value="00" type="number">
+                <input value="00" type="number" id="gethour">
             </span>
             <span>
                 <label for="">Minutes</label>
-                <input value="00" type="number">
+                <input value="00" type="number" id="getminut">
             </span>
             <span>
                 <label for="">Seconds</label>
-                <input value="00" type="number">
+                <input value="00" type="number" id="getsecond">
             </span>
         </div>
         <button class="btn2">Convert<i class="fa-solid fa-arrow-right-long"></i></button>
@@ -74,19 +74,19 @@
     <div class="footer">
             <div class="sec-1">
                 <p class="sec">Unix Timestamp</p>
-                <p class="sections">1711684908</p>
+                <p id="unixtime" class="sections"></p>
             </div>
             <div class="sec-2">
                 <p class="sec">GMT</p>
-                <p class="sections p2">Fri Mar 29 2024 04:01:48 GMT+0000</p>
+                <p id="objp2" class="sections p2"></p>
             </div>
             <div class="sec-3">
                 <p class="sec">Your Time Zone</p>
-                <p class="sections p3">Fri Mar 29 2024 09:01:48 GMT+0500 (Uzbekistan Standard Time)</p>
+                <p id="objp3" class="sections p3"></p>
             </div>
             <div class="sec-4">
                 <p class="sec">Relative</p>
-                <p class="sections p4">19 years ago</p>
+                <p class="sections p4">Updated now</p>
             </div>
     </div>
 </body>
