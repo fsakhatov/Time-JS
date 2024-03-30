@@ -50,7 +50,6 @@ btn1.addEventListener('click', () => {
       obj1.style.display = 'flex'
     }
 })
-
 btn2.addEventListener('click', (e) => {
     e.preventDefault()
     obj2.style.display = 'flex';
