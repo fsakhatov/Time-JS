@@ -1,8 +1,8 @@
-let btn1 = document.querySelector('.btn1');
-let obj1 = document.querySelector('.span');
+let btn1 = document.querySelector('.btn1')
+let obj1 = document.querySelector('.span')
 
-let objp2 = document.querySelector('#objp2');
-let objp3 = document.querySelector('#objp3');
+let objp2 = document.querySelector('#objp2')
+let objp3 = document.querySelector('#objp3')
 let unixTime = document.querySelector('#unixtime')
 
 let btn2 = document.querySelector('.btn2');
